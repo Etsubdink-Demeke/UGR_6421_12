@@ -1,0 +1,359 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body {
+
+    background-color:pink;
+    text-align: center;
+    font-size: large;
+    color:rgb(98, 136, 151);
+    
+}
+
+
+
+
+a{
+    color: rgb(209, 186, 207);
+}
+a:hover{
+    color: rgb(148, 115, 145);
+    }
+
+.nav-link a{
+    display: block;
+    transition: all o.3s ease-out;
+}
+.nav-link a:hover{
+    transform: rotate(6deg);
+
+}
+.nav-link{
+    padding: 0 45px 0 45px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(16, 86, 95);
+    align-items: center;
+flex-wrap:wrap
+}
+.nav-link li{
+    list-style:none; 
+    font-size: 70%;
+    font-family: cursive;
+    font-weight: bold;}
+    li a{
+    text-decoration: none;
+}
+.bottom{
+    display:flex;
+    justify-content:space-around;
+}
+.about{
+    display:flex;
+    color:black;
+    background-color: lightskyblue;
+    margin: auto ;} 
+
+.fotter{
+    display: flex;
+    background-color: rgb(14, 74, 82);
+}
+
+.innerfooter{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(54, 112, 167);
+}
+.social{
+    display: flex;
+
+}
+.social ul{
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    height: 50px;
+    margin: auto;
+
+}
+.social li{
+    list-style: none;
+    padding: 10px 10px;
+
+}
+.social a{
+    color: rgb(68, 25, 33);
+    transition: all .25s;
+
+
+}
+
+.quick a:hover{
+    color:rgb(59, 21, 21);
+    transform: rotate(6deg);
+
+}
+.quick{
+    display: flex;
+    width: 600px;
+    height: 70px;
+    margin: auto;
+    padding: 30px;
+    font-size: 15px;
+}
+.quick ul{
+    display: flex;
+}
+.quick li{
+    list-style-type:none;
+}
+.quick a{ 
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    color: rgb(31, 4, 4);
+    transition: all .025s;
+}
+.family p{
+    display:flex;
+    color:black;
+    background-color: rgb(184, 189, 192);}
+   
+
+
+
+ .hero{
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    line-height: 100%;
+}
+
+.table{
+    background-color: rgb(20, 120, 167);
+    padding: 60px 45px;
+ 
+
+
+
+}
+.element{
+    color: rgb(48, 28, 5);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    column-gap: 1fr;
+    row-gap: 45px;}
+    .data p{
+        margin: 0;
+        line-height: 1.6;
+
+
+
+    }
+    .data h3{
+        color: rgb(43, 19, 1);
+        font-size: large;
+        font-weight: normal;
+
+    } 
+    .images{
+        background-color: rgb(11, 74, 94);
+        padding: 60px 45px;
+    }.inner{
+        color: rgb(153, 144, 134);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    column-gap: 1fr;
+    row-gap: 45px;}
+    .photos img{
+        height: 600px;
+        width:400px
+    }
+    .photos p{
+        margin: 0;
+        line-height: 1.6;
+        align-items: center;
+    }
+    .work{
+        display: flex;
+        justify-content: space-around;
+        background-color: #fff8dc;
+        flex-direction: column;
+        color: rgb(34, 5, 5);
+    
+        
+    }
+    .work li{
+        list-style: none;
+        color: rgb(31, 9, 9);
+    
+
+    }.work a{
+        color: rgb(44, 14, 14);
+    }
+    .act{
+        background-color: rgb(11, 74, 94);
+        padding: 60px 45px;
+    }.inner-act{
+        color: rgb(48, 28, 5);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    column-gap: 1fr;
+    row-gap: 45px;}
+    .work img{
+        height: 400px;
+        width:400px
+    }
+    .work p{
+        margin: 0;
+        line-height: 1.6;
+        align-items: center;
+    }
+    .button{
+       display: block;
+        height: 70px;
+        width: 300px;
+        background-color: rgb(49, 3, 3);
+        color: rgb(129, 119, 106);
+        padding: 50px 20px;
+        border-radius: 8px;
+        align-items: center;
+        
+        
+        
+    }
+    .button a{
+        display: block;
+        transition:all o.3s ease-out;
+        font-size: larger;
+        transition: all .25s;
+    
+    }
+    .botton a:hover{
+        transform: rotate(10deg);
+    }
+   
+    .contact{
+        background-color: rgb(97, 57, 57);
+        width: 100%;
+        height: 600px;
+        display: block;
+    }
+    .form{ 
+   padding: 10px 20px;
+        width: 600px;
+        height: 400px;
+        background-color: rgb(43, 11, 11);
+        box-shadow: rgb(216, 140, 86);
+        top: 200px;
+        left: 300px;
+        position: absolute;
+        transform: translate(-50% -50%);
+
+
+        
+    }
+   
+
+    .response{
+        width: 600px;
+        height: 300px;
+    }
+    .field{
+        width: 300px;
+        height: 50px;
+        padding-left: 10px;
+        padding-right: 30px;
+        border: 10px solid rgb(43, 20, 12);
+        border-radius: 14px;
+        
+    }
+    .send{
+        border-radius: 6px;
+        color: rgb(27, 5, 22);
+        background-color: darksalmon;
+        padding: 10px;
+        margin-top: 18px;
+        font-size: medium;
+    }
+
+    .image{
+        background-color: rgb(15, 68, 84);
+        padding: 60px 45px;
+        color: rgb(201, 213, 224);
+    }.pic{
+        color: rgb(192, 230, 231);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    column-gap: 1fr;
+    row-gap: 45px;}
+    .photo img{
+        height: 400px;
+        width:400px
+    }
+    .photos p{
+        margin: 0;
+        line-height: 1.6;
+        align-items: center;}
+
+.poem{ 
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(34, 149, 184);
+    color:antiquewhite;
+
+}
+
+    .blogs{
+        background-color:  rgb(101, 213, 247);
+        color:rgb(13, 56, 65);
+        width: 1fr;
+        height:200px;
+        
+    }
+    .blogs p{
+        padding: 45px 30px;
+
+
+    }
+    .reference
+    {
+        display: flex;
+justify-content: space-around;
+    }
+    .school li{
+        list-style: none;
+        background-color: rgb(11, 74, 94);
+        width:300px;
+        height: 100px;
+    }
+    .people{
+        list-style: none;
+        background-color: rgb(20, 69, 83);
+        
+        color: rgb(148, 115, 145);
+
+        
+    }
+    .people li{
+        top: 100px;
+        list-style: none;
+        width:200px;
+        height: 100px;
+    }
+   
+    
+   
+    
+    
+       
